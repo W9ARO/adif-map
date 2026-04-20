@@ -51,8 +51,8 @@ fetch('data.geojson')
 
       onEachFeature: function (feature, layer) {
         layer.bindPopup(
-          "<b>" + feature.properties.name + "</b><br>" +
-          "Value: " + feature.properties.value
+          "<b>" + (feature.properties.call || "") + "</b><br>" +
+          "Grid: " + (feature.properties.grid || "")
         );
       }
 
