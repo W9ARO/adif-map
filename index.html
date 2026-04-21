@@ -52,7 +52,14 @@ fetch('contacts_data.geojson')
       onEachFeature: function (feature, layer) {
         layer.bindPopup(
           "<b>" + (feature.properties.call || "") + "</b><br>" +
-          "Grid: " + (feature.properties.grid || "")
+          "Grid: " + (feature.properties.grid || "") + "<br>" +
+          "Band: " + (feature.properties.band || "") + "<br>" +
+          "Mode: " + (feature.properties.mode || "") + "<br>" +
+          "Freq: " + (feature.properties.freq || "") + "<br>" +
+          "RST Sent: " + (feature.properties.rst_sent || "") + "<br>" +
+          "RST Rcvd: " + (feature.properties.rst_rcvd || "") + "<br>" +
+          "Net: " + (feature.properties.net || "") + "<br>" +
+          "Comment: " + (feature.properties.comment || "")
         );
       }
 
