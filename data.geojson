@@ -4,342 +4,19 @@
     {
       "type": "Feature",
       "properties": {
-        "call": "KK4ZYB",
-        "grid": "EM80au",
+        "call": "W4SKG",
+        "grid": "EM70vn",
         "band": "2m",
         "mode": "FM",
         "rst": "",
-        "name": "Daniel D Jones",
-        "qth": "Thomasville"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.95833333333333,
-          30.854166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "AE4S",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "William 'Bill' Jordan",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4AZP",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Robert C Lacher",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "WA4BLH",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Mark Trombly",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "N4QB",
-        "grid": "EM70vl",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "David L Barton",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KK4INZ",
-        "grid": "EL89sp",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "William C Fugate",
-        "qth": "GAINESVILLE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.45833333333333,
-          29.645833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "W3AIM",
-        "grid": "EM80au",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "2",
-        "name": "James M Hitt",
-        "qth": "thomasville"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.95833333333333,
-          30.854166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "N5HF",
-        "grid": "EM70um",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "3",
-        "name": "Henry Freedenberg",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.520833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KV4G",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "3",
-        "name": "Timothy Patterson",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "WD4LWG",
-        "grid": "EL88ug",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "1",
-        "name": "Clyde D Rogers",
-        "qth": "Tampa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.29166666666666,
-          28.270833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KV4YI",
-        "grid": "EM65lo",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "3",
-        "name": "Earl D Cooper Jr",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.04166666666666,
-          35.60416666666667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "W4KZX",
-        "grid": "EM72fo",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "2",
-        "name": "Philip C Raines",
-        "qth": "Auburn"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.54166666666666,
-          32.60416666666667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KR4KNT",
-        "grid": "EM70uj",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "William Stubbs",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.395833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KQ4YKE",
-        "grid": "EM70vm",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Mark Fuller",
+        "name": "David R Miner",
         "qth": "Tallahassee"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -84.20833333333333,
-          30.520833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KR4KJZ",
-        "grid": "EM83aw",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Brandon Corley",
-        "qth": "Lawrenceville"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.95833333333333,
-          33.9375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "AI4AI",
-        "grid": "EM70vk",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Brian S Dunworth",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.4375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "W0MNY",
-        "grid": "EM72qx",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Mark Trevithick",
-        "qth": "QUINCY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.625,
-          32.97916666666667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KK4JWK",
-        "grid": "EM70um",
-        "band": "2m",
-        "mode": "FM",
-        "rst": "",
-        "name": "Jonathan K Liedy",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.520833333333332
+          30.5625
         ]
       }
     },
@@ -365,19 +42,95 @@
     {
       "type": "Feature",
       "properties": {
-        "call": "KO4UXX",
-        "grid": "EM73xe",
+        "call": "W9ARO",
+        "grid": "EM70sk",
         "band": "2m",
         "mode": "FM",
-        "rst": "3",
-        "name": "James A Dunham",
-        "qth": "Jackson"
+        "rst": "",
+        "name": "Charles D May",
+        "qth": "Tallahassee"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.04166666666666,
-          33.1875
+          -84.45833333333333,
+          30.4375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KV4G",
+        "grid": "EM70ul",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Timothy Patterson",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29166666666666,
+          30.479166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "WA4WES",
+        "grid": "EM70ul",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "David A Davis",
+        "qth": "TALLAHASSEE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29166666666666,
+          30.479166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "K4JGC",
+        "grid": "EM70vn",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "James G Carver",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20833333333333,
+          30.5625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "K4BNF",
+        "grid": "EM70um",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Ben L Faulk",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29166666666666,
+          30.520833333333332
         ]
       }
     },
@@ -403,19 +156,228 @@
     {
       "type": "Feature",
       "properties": {
-        "call": "W9ARO",
-        "grid": "EM70sk",
+        "call": "KM4BRR",
+        "grid": "EM70xl",
         "band": "2m",
         "mode": "FM",
-        "rst": "3",
-        "name": "Charles D May",
+        "rst": "",
+        "name": "Richard L Hamilton",
+        "qth": "Lloyd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.04166666666666,
+          30.479166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KQ4EDV",
+        "grid": "EM70vk",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Jeryl R Matlock",
         "qth": "Tallahassee"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.45833333333333,
+          -84.20833333333333,
           30.4375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KN4FCC",
+        "grid": "EM70vl",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Jess T Clark",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20833333333333,
+          30.479166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KR4KNT",
+        "grid": "EM70uj",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "William Stubbs",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29166666666666,
+          30.395833333333332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KO4QMO",
+        "grid": "EM80el",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "David E Verbarg",
+        "qth": "GREENVILLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.625,
+          30.479166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KQ4GPH",
+        "grid": "EM70wk",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Timothy Kilcullen",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.125,
+          30.4375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "AI4KA",
+        "grid": "EM70un",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Chuck Basham",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.29166666666666,
+          30.5625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "AJ4D",
+        "grid": "EM70vm",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Adrienne C Hendrix",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20833333333333,
+          30.520833333333332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "K4NRD",
+        "grid": "EM80fi",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Patrick E Lightcap",
+        "qth": "MADISON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.54166666666666,
+          30.354166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "K4DBC",
+        "grid": "EM80ho",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "James D Shanklin Jr",
+        "qth": "Pinetta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.375,
+          30.604166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KB2NUI",
+        "grid": "EM70vo",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "David E Candelaria",
+        "qth": "Tallahassee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20833333333333,
+          30.604166666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "call": "KN4L",
+        "grid": "EM63oi",
+        "band": "2m",
+        "mode": "FM",
+        "rst": "",
+        "name": "Scott D Schram",
+        "qth": "BIRMINGHAM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.79166666666666,
+          33.35416666666667
         ]
       }
     }
