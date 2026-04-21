@@ -6,15 +6,16 @@
       "properties": {
         "call": "W4SKG",
         "grid": "EM70vn",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "",
-        "rst_sent": "",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "David R Miner",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": ""
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -29,15 +30,16 @@
       "properties": {
         "call": "KO4KKX",
         "grid": "EM70rk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Garrett Langston",
-        "qth": "TALLAHASSEE"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -52,15 +54,16 @@
       "properties": {
         "call": "W9ARO",
         "grid": "EM70sk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Charles D May",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -75,15 +78,16 @@
       "properties": {
         "call": "KV4G",
         "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Timothy Patterson",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -98,15 +102,16 @@
       "properties": {
         "call": "WA4WES",
         "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "David A Davis",
-        "qth": "TALLAHASSEE"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -121,15 +126,16 @@
       "properties": {
         "call": "K4JGC",
         "grid": "EM70vn",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "James G Carver",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -144,15 +150,16 @@
       "properties": {
         "call": "K4BNF",
         "grid": "EM70um",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Ben L Faulk",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 1.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -167,15 +174,16 @@
       "properties": {
         "call": "K4DUI",
         "grid": "EM70vj",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "David A Meresse",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -190,15 +198,16 @@
       "properties": {
         "call": "KM4BRR",
         "grid": "EM70xl",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Richard L Hamilton",
-        "qth": "Lloyd"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 1.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -213,15 +222,16 @@
       "properties": {
         "call": "KQ4EDV",
         "grid": "EM70vk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Jeryl R Matlock",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -236,15 +246,16 @@
       "properties": {
         "call": "KN4FCC",
         "grid": "EM70vl",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Jess T Clark",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -259,15 +270,16 @@
       "properties": {
         "call": "KR4KNT",
         "grid": "EM70uj",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "William Stubbs",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -282,15 +294,16 @@
       "properties": {
         "call": "KO4QMO",
         "grid": "EM80el",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "David E Verbarg",
-        "qth": "GREENVILLE"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -305,15 +318,16 @@
       "properties": {
         "call": "KQ4GPH",
         "grid": "EM70wk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Timothy Kilcullen",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -328,15 +342,16 @@
       "properties": {
         "call": "AI4KA",
         "grid": "EM70un",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Chuck Basham",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -351,15 +366,16 @@
       "properties": {
         "call": "AJ4D",
         "grid": "EM70vm",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Adrienne C Hendrix",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -374,15 +390,16 @@
       "properties": {
         "call": "K4NRD",
         "grid": "EM80fi",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Patrick E Lightcap",
-        "qth": "MADISON"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 3.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 3.0
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -397,15 +414,16 @@
       "properties": {
         "call": "K4DBC",
         "grid": "EM80ho",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "1",
-        "rst_sent": "2",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "James D Shanklin Jr",
-        "qth": "Pinetta"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 1.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -420,15 +438,16 @@
       "properties": {
         "call": "KB2NUI",
         "grid": "EM70vo",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "David E Candelaria",
-        "qth": "Tallahassee"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 1.5
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 2.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -443,481 +462,22 @@
       "properties": {
         "call": "KN4L",
         "grid": "EM63oi",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "147.030",
-        "rst_rcvd": "2",
-        "rst_sent": "1",
-        "net": "TEST_147.030",
-        "comment": "(no club info)",
-        "name": "Scott D Schram",
-        "qth": "BIRMINGHAM"
+        "net_summary": [
+          {
+            "net": "TEST_146.655",
+            "avg_rst": 2.0
+          },
+          {
+            "net": "TEST_147.030",
+            "avg_rst": 1.5
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -86.79166666666666,
           33.35416666666667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KN4L",
-        "grid": "EM63oi",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Scott D Schram",
-        "qth": "BIRMINGHAM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.79166666666666,
-          33.35416666666667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KB2NUI",
-        "grid": "EM70vo",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "1",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "David E Candelaria",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.604166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4DBC",
-        "grid": "EM80ho",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "James D Shanklin Jr",
-        "qth": "Pinetta"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.375,
-          30.604166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4NRD",
-        "grid": "EM80fi",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "Weather",
-        "name": "Patrick E Lightcap",
-        "qth": "MADISON"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.54166666666666,
-          30.354166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "AJ4D",
-        "grid": "EM70vm",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "TARS",
-        "name": "Adrienne C Hendrix",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.520833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "AI4KA",
-        "grid": "EM70un",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Chuck Basham",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.5625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KQ4GPH",
-        "grid": "EM70wk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Timothy Kilcullen",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.125,
-          30.4375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KO4QMO",
-        "grid": "EM80el",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "David E Verbarg",
-        "qth": "GREENVILLE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.625,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KR4KNT",
-        "grid": "EM70uj",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "William Stubbs",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.395833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KN4FCC",
-        "grid": "EM70vl",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "TARS",
-        "name": "Jess T Clark",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KQ4EDV",
-        "grid": "EM70vk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "TARS",
-        "name": "Jeryl R Matlock",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.4375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KM4BRR",
-        "grid": "EM70xl",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "1",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Richard L Hamilton",
-        "qth": "Lloyd"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.04166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4DUI",
-        "grid": "EM70vj",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "David A Meresse",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.395833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4BNF",
-        "grid": "EM70um",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "1",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Ben L Faulk",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.520833333333332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "K4JGC",
-        "grid": "EM70vn",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "James G Carver",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.5625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "WA4WES",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "ARES AEC - Leon County",
-        "name": "David A Davis",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KV4G",
-        "grid": "EM70ul",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "(no club info)",
-        "name": "Timothy Patterson",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.29166666666666,
-          30.479166666666664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "W9ARO",
-        "grid": "EM70sk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "TARS, ARES AEC - Leon County",
-        "name": "Charles D May",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.45833333333333,
-          30.4375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "KO4KKX",
-        "grid": "EM70rk",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "3",
-        "rst_sent": "3",
-        "net": "TEST_146.655",
-        "comment": "AEC/NCS Leon County ARES Net",
-        "name": "Garrett Langston",
-        "qth": "TALLAHASSEE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.54166666666666,
-          30.4375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "call": "W4SKG",
-        "grid": "EM70vn",
-        "band": "2m",
-        "mode": "FM",
-        "freq": "146.655",
-        "rst_rcvd": "2",
-        "rst_sent": "2",
-        "net": "TEST_146.655",
-        "comment": "TARS",
-        "name": "David R Miner",
-        "qth": "Tallahassee"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.20833333333333,
-          30.5625
         ]
       }
     }
