@@ -19,47 +19,121 @@
 <div id="map"></div>
 
 <script>
-var map = L.map('map').setView([37.8, -96], 4);
+var map = L.map('map').setView([30.44, -84.28], 10);
 
-// Base layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 18
+  maxZoom: 18,
+  attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Color function
-function getColor(v) {
-  return v > 2 ? 'red' :
-         v > 1 ? 'orange' :
-                 'green';
+let allData = null;
+let currentLayer = null;
+
+// --- dropdown control ---
+const control = L.control({ position: 'topright' });
+
+control.onAdd = function () {
+  const div = L.DomUtil.create('div', 'test-filter-control');
+  div.innerHTML = `
+    <div style="
+      background: rgba(255,255,255,0.95);
+      padding: 10px 12px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      font: 14px sans-serif;
+    ">
+      <b>Select Test</b><br>
+      <select id="testSelect" style="width:100%; margin-top:5px;">
+        <option value="__ALL__">All Tests</option>
+      </select>
+    </div>
+  `;
+  return div;
+};
+
+control.addTo(map);
+
+// prevent map drag when using dropdown
+document.addEventListener("DOMContentLoaded", function() {
+  const ctl = document.querySelector('.test-filter-control');
+  if (ctl) {
+    L.DomEvent.disableClickPropagation(ctl);
+    L.DomEvent.disableScrollPropagation(ctl);
+  }
+});
+
+// marker style
+function markerStyle() {
+  return {
+    radius: 8,
+    fillColor: "#2a6fdb",
+    color: "#000",
+    weight: 1,
+    fillOpacity: 0.8
+  };
 }
 
-// Load GeoJSON
+// popup
+function onEachFeature(feature, layer) {
+  layer.bindPopup(
+    "<b>" + (feature.properties.call || "") + "</b><br>" +
+    "Grid: " + (feature.properties.grid || "") + "<br>" +
+    "Test: " + (feature.properties.net || "")
+  );
+}
+
+// render layer
+function renderLayer(selectedTest) {
+  if (currentLayer) {
+    map.removeLayer(currentLayer);
+  }
+
+  currentLayer = L.geoJSON(allData, {
+    filter: function(feature) {
+      if (selectedTest === "__ALL__") return true;
+      return (feature.properties.net || "") === selectedTest;
+    },
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng, markerStyle());
+    },
+    onEachFeature: onEachFeature
+  }).addTo(map);
+
+  const bounds = currentLayer.getBounds();
+  if (bounds.isValid()) {
+    map.fitBounds(bounds.pad(0.15));
+  }
+}
+
+// build dropdown
+function buildTestIndex(data) {
+  const select = document.getElementById("testSelect");
+
+  const tests = Array.from(new Set(
+    data.features
+      .map(f => (f.properties.net || "").trim())
+      .filter(v => v !== "")
+  )).sort();
+
+  tests.forEach(function(testName) {
+    const opt = document.createElement("option");
+    opt.value = testName;
+    opt.textContent = testName;
+    select.appendChild(opt);
+  });
+
+  select.addEventListener("change", function() {
+    renderLayer(this.value);
+  });
+}
+
+// load data
 fetch('contacts_data.geojson')
   .then(response => response.json())
   .then(data => {
-
-    L.geoJSON(data, {
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-          radius: 8,
-          fillColor: getColor(feature.properties.value),
-          color: "#000",
-          weight: 1,
-          fillOpacity: 0.8
-        });
-      },
-
-      onEachFeature: function (feature, layer) {
-        let html = "<b>" + (feature.properties.call || "") + "</b><br>";
-        const nets = feature.properties.net_summary || [];
-        nets.forEach(function(item) {
-          html += item.net + "&nbsp;&nbsp;&nbsp;" + item.avg_rst + "<br>";
-        });
-        layer.bindPopup(html);
-      }
-
-    }).addTo(map);
-
+    allData = data;
+    buildTestIndex(data);
+    renderLayer("__ALL__");
   })
   .catch(error => console.error('Error loading GeoJSON:', error));
 </script>
