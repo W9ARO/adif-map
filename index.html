@@ -78,7 +78,7 @@ function onEachFeature(feature, layer) {
   layer.bindPopup(
     "<b>" + (feature.properties.call || "") + "</b><br>" +
     "Grid: " + (feature.properties.grid || "") + "<br>" +
-    "Test: " + (feature.properties.test || "")
+    "Test: " + (feature.properties.net || "")
   );
 }
 
@@ -91,7 +91,7 @@ function renderLayer(selectedTest) {
   currentLayer = L.geoJSON(allData, {
     filter: function(feature) {
       if (selectedTest === "__ALL__") return true;
-      return (feature.properties.test || "") === selectedTest;
+      return (feature.properties.net || "") === selectedTest;
     },
     pointToLayer: function(feature, latlng) {
       return L.circleMarker(latlng, markerStyle());
@@ -112,7 +112,7 @@ function buildTestIndex(data) {
   const tests = [...new Set(
     data.features
       .map(function(f) {
-        return String((f.properties && f.properties.test) || "").trim();
+        return String((f.properties && f.properties.net) || "").trim();
       })
       .filter(function(v) {
         return v.length > 0;
