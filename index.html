@@ -109,21 +109,21 @@ function renderLayer(selectedTest) {
 function buildTestIndex(data) {
   const select = document.getElementById("testSelect");
 
-  const tests = Array.from(new Set(
+  const tests = [...new Set(
     data.features
-      .map(f => (f.properties.net || "").trim())
-      .filter(v => v !== "")
-  )).sort();
+      .map(function(f) {
+        return String((f.properties && f.properties.net) || "").trim();
+      })
+      .filter(function(v) {
+        return v.length > 0;
+      })
+  )].sort();
 
   tests.forEach(function(testName) {
     const opt = document.createElement("option");
     opt.value = testName;
     opt.textContent = testName;
     select.appendChild(opt);
-  });
-
-  select.addEventListener("change", function() {
-    renderLayer(this.value);
   });
 }
 
