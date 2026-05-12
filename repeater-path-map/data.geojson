@@ -1,46 +1,60 @@
 {
   "type": "FeatureCollection",
   "features": [
-
     {
       "type": "Feature",
       "properties": {
-        "name": "K4TLH Repeater",
         "type": "repeater",
-        "freq": "146.655"
-      },
+        "name": "AE4S 146.655",
+        },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.280, 30.438]
+        "coordinates": [-84.200, 30.440]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
-        "name": "Mobile Test Point",
-        "type": "mobile"
-      },
+        "type": "repeater",
+        "name": "K4TLH 146.910",
+        },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.320, 30.390]
+        "coordinates": [-84.240, 30.450]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
-        "name": "Test Path",
-        "quality": 3
-      },
+        "type": "repeater",
+        "name": "K4TLH 147.030",
+        },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-84.320, 30.390],
-          [-84.280, 30.438]
-        ]
+        "type": "Point",
+        "coordinates": [-84.220, 30.500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "repeater",
+        "name": "AE4S 443.950",
+        },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.200, 30.440]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "repeater",
+        "name": "K4TLH 444.800",
+        },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.240, 30.450]
       }
     }
-
   ]
 }
