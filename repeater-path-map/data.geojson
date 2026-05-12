@@ -32,7 +32,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-84.220, 30.500]
-      }
-    }
-  ]
+      },
+{
+  "type": "Feature",
+  "properties": {
+    "type": "Mobile Test Point",
+    "name": "Test Point 1"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-84.320, 30.390]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "type": "Path",
+    "name": "Test Point 1 to K4TLH 147.030"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [-84.320, 30.390],
+      [-84.220, 30.500]
+    ]
+  }
 }
