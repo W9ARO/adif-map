@@ -16,7 +16,7 @@
       "type": "Feature",
       "properties": {
         "type": "repeater",
-        "name": "K4TLH 146.910",
+        "name": "K4TLH 146.910"
         },
       "geometry": {
         "type": "Point",
@@ -27,7 +27,7 @@
       "type": "Feature",
       "properties": {
         "type": "repeater",
-        "name": "K4TLH 147.030",
+        "name": "K4TLH 147.030"
         },
       "geometry": {
         "type": "Point",
@@ -38,7 +38,7 @@
       "type": "Feature",
       "properties": {
         "type": "repeater",
-        "name": "AE4S 443.950",
+        "name": "AE4S 443.950"
         },
       "geometry": {
         "type": "Point",
@@ -49,7 +49,7 @@
       "type": "Feature",
       "properties": {
         "type": "repeater",
-        "name": "K4TLH 444.800",
+        "name": "K4TLH 444.800"
         },
       "geometry": {
         "type": "Point",
