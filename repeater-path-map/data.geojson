@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "type": "repeater",
-        "name": "AE4S 146.655",
+        "name": "AE4S 146.655"
         },
       "geometry": {
         "type": "Point",
