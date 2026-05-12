@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "K4TLH Repeater",
+        "type": "repeater",
+        "freq": "146.655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.280, 30.438]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mobile Test Point",
+        "type": "mobile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.320, 30.390]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Path",
+        "quality": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.320, 30.390],
+          [-84.280, 30.438]
+        ]
+      }
+    }
+
+  ]
+}
