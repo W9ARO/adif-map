@@ -247,13 +247,13 @@
         "type": "Mobile Check-In",
         "mobile_unit": "KO4KKX",
         "stop": "8",
-        "location": "US98@Carrabelle Beach"
+        "location": "Mashes Sands Beach"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.68407,
-          29.83215
+          -84.34051,
+          29.97368
         ]
       }
     },
